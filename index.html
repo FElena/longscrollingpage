@@ -44,19 +44,10 @@
     <p id="description"></p>
 
 
-
-    <script>
-    document.getElementById("infoBtn").addEventListener("click", function(){
-    document.getElementById("description").innerHTML = "Picasso ";
-   });
-   </script>
-
-
    <script>
    var canvas = document.getElementById("canvas");
    var counter = document.getElementById("counter");
    var icon = document.getElementById("icon");
-
 
    window.onscroll  = function(){
    var x = window.pageXOffset;
@@ -66,8 +57,11 @@
    counter.innerHTML = x + "px";
    }
 
+   document.getElementById("infoBtn").addEventListener("click", function(){
+   document.getElementById("description").innerHTML = "Picasso ";
+  });
 
-</script>
+  </script>
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
