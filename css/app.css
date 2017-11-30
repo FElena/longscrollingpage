@@ -1,0 +1,166 @@
+body {background-color: #29293d;}
+
+#canvas{
+  border:2px solid red;
+  width:10000px;
+  height:700px;
+  margin:0 auto;
+  position:relative;
+
+}
+
+#counter{
+  border:2px solid blue;
+  background-color:blue;
+  color:white;
+  width:100px;
+  height:30px;
+  top:123px;
+  left:0px;
+  position:absolute;
+  z-index:-1;
+  opacity:0.9;
+}
+
+h1{  background-color:white;
+     position:absolute;
+     width:350px;
+     height:150px;
+     top:200px;
+     left:300px;
+}
+
+#imgframe {
+  position:absolute;
+  width:1400px;
+  height:600px;
+  top:-40px;
+  left:-60px;
+}
+
+#imgweb {width:300px;
+  height: 200px;
+  position:absolute;
+  top:0px;
+  left:0px;
+
+  -webkit-animation: shake 8s infinite; /* Safari 4.0 - 8.0 */
+    animation: shake 8s infinite;
+}
+@keyframes shake {
+  0% { transform: translate(0.5px, 0.5px) rotate(0deg); }
+  10% { transform: translate(-1px, -1px) rotate(-1deg); }
+  20% { transform: translate(-2px, 0px) rotate(1deg); }
+  30% { transform: translate(2px, 1px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-0.5px, 1px) rotate(-1deg); }
+  60% { transform: translate(-2px, 0.5px) rotate(0deg); }
+  70% { transform: translate(1px, 0.5px) rotate(-1deg); }
+  80% { transform: translate(-0.5px, -0.5px) rotate(1deg); }
+  90% { transform: translate(0.5px, 1px) rotate(0deg); }
+  100% { transform: translate(0.5px, -1px) rotate(-1deg); }
+}
+
+#imgspider {width:100px;
+  height: 100px;
+  position:absolute;
+  top:30px;
+  left:2250px;
+}
+#description{width:50px;
+  height: 50px;
+  background-color: white;
+  border:1px solid black;
+  position:absolute;
+  top:100px;
+  left:1000px;
+}
+#infoBtn{top:100px;
+left:1000px;
+}
+
+#imglamp{
+  width:50px;
+  height: 100px;
+  background-color: grey;
+    border:1px solid white;
+    position:absolute;
+    top:0px;
+    left:1400px;
+}
+
+#img1 {
+  width:500px;
+  position:absolute;
+  top:-40px;
+  left:1100px;
+}
+
+#img2 {width:250px;
+  
+  position:absolute;
+  top:100px;
+  left:2100px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 1.0);
+}
+#img3 {width:250px;
+  border:1px solid black;
+  position:absolute;
+  top:100px;
+  left:3000px;
+}
+#img4 {width:250px;
+  border:1px solid black;
+  position:absolute;
+  top:100px;
+  left:3900px;
+}
+#img5 {width:250px;
+  border:1px solid black;
+  position:absolute;
+  top:100px;
+  left:4800px;
+}
+#img6 {width:350px;
+  border:1px solid black;
+  position:absolute;
+  top:100px;
+  left:5700px;
+}
+#img7 {width:250px;
+  border:1px solid black;
+  position:absolute;
+  top:100px;
+  left:6600px;
+}
+#img8 {width:600px;
+  position:absolute;
+  top:100px;
+  left:7300px;
+}
+#img9 {width:250px;
+  border:1px solid black;
+  position:absolute;
+  top:100px;
+  left:8400px;
+}
+#img10 {width:250px;
+  border:1px solid black;
+  position:absolute;
+  top:100px;
+  left:9300px;
+}
+
+
+#img1:hover {
+  transition: .5s ease;
+  <img src="img/masterpieces/portraitofman_mast.jpg" alt="">;
+}
+
+
+
+
+/* relative, absolute, fixed, static
+http://www.barelyfitz.com/screencast/html-training/css/positioning/
+http://jsbin.com/yicata/2/
+*/
