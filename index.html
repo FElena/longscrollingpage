@@ -14,9 +14,10 @@
 
     <div id="counter">counter</div>
     <h1> Hidden Masterpieces</h1>
-
-    <img src="img/portraitofman.png" alt="" id="img1">
-    <img src="img/girlwithpearl.jpg" alt="" id="img2">
+<div id="img1"></div>
+<div id="img2"></div>
+    <!--<img src="img/portraitofman.png" alt="" id="img1">-->
+    <!--<img src="img/girlwithpearl.jpg" alt="" id="img2">-->
     <img src="img/scream.jpg" alt="" id="img3">
     <img src="img/adele.jpg" alt="" id="img4">
     <img src="img/motherandchild.png" alt="" id="img5">
@@ -25,9 +26,12 @@
     <img src="img/guernica.jpg" alt="" id="img8">
     <img src="img/mayawithdoll.jpg" alt="" id="img9">
     <img src="img/childanddoves.jpg" alt="" id="img10">
+    <!--<img src="img/light.png" alt="" id="imglight">-->
 
-    <img src="img/....jpg" alt="" id="imglamp">
     <img src="img/frame.png" alt="" id="imgframe">
+
+<div id="wall1"></div>
+<div id="wall2"></div>
 
 
     <div class="shaking cell">
@@ -38,13 +42,16 @@
       <img src="img/spider.png" alt="" id="imgspider">
     </div>
 
-</div>
-
-    <button id="infoBtn">info</button>
-    <p id="description"></p>
+    <p id="info" onclick="myFunction()">Click me to get info</p>
 
 
-   <script>
+
+<script>
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = "info info info";
+}
+
    var canvas = document.getElementById("canvas");
    var counter = document.getElementById("counter");
    var icon = document.getElementById("icon");
@@ -56,12 +63,9 @@
    counter.style.left = 400 + x * .97 + "px";
    counter.innerHTML = x + "px";
    }
+</script>
 
-   document.getElementById("infoBtn").addEventListener("click", function(){
-   document.getElementById("description").innerHTML = "Picasso ";
-  });
 
-  </script>
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
