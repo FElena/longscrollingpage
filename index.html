@@ -8,43 +8,47 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
   </head>
-<body>
 
+  <body>
   <div id="canvas">
 
     <div id="counter">counter</div>
-    <h1> Hidden Masterpieces</h1>
-<div id="img1"></div>
-<div id="img2"></div>
+
+    <h1>Hidden Masterpieces</h1>
+
+    <div id="img1"></div>
+    <div id="img2"></div>
+    <div id="img3"></div>
+    <div id="img4"></div>
+    <div id="img5"></div>
+    <div id="img6"></div>
+    <div id="img7"></div>
+    <div id="img8"></div>
+    <div id="img9"></div>
+    <div id="img10"></div>
+
     <!--<img src="img/portraitofman.png" alt="" id="img1">-->
     <!--<img src="img/girlwithpearl.jpg" alt="" id="img2">-->
-    <img src="img/scream.jpg" alt="" id="img3">
-    <img src="img/adele.jpg" alt="" id="img4">
-    <img src="img/motherandchild.png" alt="" id="img5">
-    <img src="img/lesdemoiselles.jpg" alt="" id="img6">
-    <img src="img/stilllife.jpg" alt="" id="img7">
-    <img src="img/guernica.jpg" alt="" id="img8">
-    <img src="img/mayawithdoll.jpg" alt="" id="img9">
-    <img src="img/childanddoves.jpg" alt="" id="img10">
-    <!--<img src="img/light.png" alt="" id="imglight">-->
 
     <img src="img/frame.png" alt="" id="imgframe">
-
-<div id="wall1"></div>
-<div id="wall2"></div>
-
-
-    <div class="shaking cell">
-      <img src="img/webspider.png" alt="" id="imgweb">
-    </div>
-
-    <div class="movingspider cell">
-      <img src="img/spider.png" alt="" id="imgspider">
-    </div>
-
-    <p id="info" onclick="myFunction()">Click me to get info</p>
+    <img src="img/webcenter.png" alt="" id="imgwebcenter">
+    <img src="img/spider.png" alt="" id="imgspider">
+    <img src="img/spidersmall.png" alt="" id="imgspidersmall">
+    <img src="img/bats.png" alt="" id="imgbats">
+    <img src="img/webcorner.png" alt="" id="imgwebcorner">
+    <img src="img/webright_15.png" alt="" id="imgwebright_15">
+    <img src="img/webcorner_spider.png" alt="" id="imgwebcorner_spider">
 
 
+
+
+  <div id="wall1"></div>
+  <div id="wall2"></div>
+
+
+
+
+</div>
 
 <script>
 
@@ -54,15 +58,40 @@ function myFunction() {
 
    var canvas = document.getElementById("canvas");
    var counter = document.getElementById("counter");
-   var icon = document.getElementById("icon");
+
 
    window.onscroll  = function(){
    var x = window.pageXOffset;
 
+
+
    console.log(x);
    counter.style.left = 400 + x * .97 + "px";
    counter.innerHTML = x + "px";
+
+
+   if (x > 700) {
+   wall1.style.backgroundColor = "green";
+ }
+ else{
+   wall1.style.backgroundColor = "grey";
    }
+
+
+ if (x > 1500) {
+ wall2.style.backgroundColor = "green";
+}
+else{
+ wall2.style.backgroundColor = "grey";
+ }
+}
+
+
+
+
+
+
+
 </script>
 
 
