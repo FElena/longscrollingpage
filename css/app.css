@@ -1,8 +1,8 @@
-body {background-color: #29293d;}
+body {background-color: #262626;}
 
 #canvas{
-  border:2px solid red;
-  width:10000px;
+  border:2px solid black;
+  width:10309px;
   height:700px;
   margin:0 auto;
   position:relative;
@@ -10,7 +10,7 @@ body {background-color: #29293d;}
 
 }
 
-#counter{
+/*#counter{
   border:2px solid blue;
   width:100px;
   height:100px;
@@ -19,17 +19,16 @@ body {background-color: #29293d;}
   position:absolute;
   /*z-index:-1;*/
   /*opacity:0.9;*/
-  background-image: url(../img/bat.png);
-}
 
 h1{  background-color:white;
      position:absolute;
-     width:270px;
-     height:170px;
-     top:250px;
-     left:320px;
+     width:250px;
+     height:130px;
+     top:230px;
+     left:338px;
      font-size: 27px;
      text-align: center;
+     font-family: 'Bellefair', serif;
 }
 
 #imgframe {
@@ -82,6 +81,27 @@ h1{  background-color:white;
   -webkit-animation: shake 30s infinite; /* Safari 4.0 - 8.0 */
     animation: shake 30s infinite;
 }
+#imgwebleft_15{
+  width:550px;
+  height: 400px;
+  position:absolute;
+  top:-60px;
+  left:5100px;
+  z-index:10;
+  -webkit-animation: shake 10s infinite; /* Safari 4.0 - 8.0 */
+    animation: shake 10s infinite;
+}
+#imgwebleft{
+  width:500px;
+  height: 200px;
+  position:absolute;
+  top:-30px;
+  left:200px;
+  z-index:10;
+  -webkit-animation: shake 10s infinite; /* Safari 4.0 - 8.0 */
+    animation: shake 10s infinite;
+}
+
 
 #imgwebcorner{
   width:200px;
@@ -116,12 +136,12 @@ h1{  background-color:white;
 }
 
 #imgspidersmall {
-  width:50px;
-  height: 50px;
+  width:100px;
+  height: 170px;
   position:absolute;
-  top:100px;
+  top:0px;
   left:670px;
-  width:50px;
+  top:0px;
   -webkit-transition: height 0.5s, width 0.5s; /* For Safari 3.1 to 6.0 */
     transition: height 0.5s, width 0.5s;
 }
@@ -129,16 +149,90 @@ h1{  background-color:white;
    height: 0px;
    width:0px;
 }
-#imgbats{
+#imgspidersmall2 {
+  width:100px;
+  height: 170px;
+  position:absolute;
+  top:0px;
+  left:1700px;
+  top:0px;
+  -webkit-transition: height 1s, width 1s; /* For Safari 3.1 to 6.0 */
+    transition: height 1s, width 1s;
+}
+#imgspidersmall2:hover{
+   height: 0px;
+   width:0px;
+}
+
+#imgspidersmall_long {
+  width:100px;
+  height: 450px;
+  position: relative;
+  top:0px;
+  left:5300px;
+  top:0px;
+  z-index:10;
+  -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+   animation: mymove 5s infinite}
+   /* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    0%   {top: 0px;}
+    25%  {top: 150px;}
+    75%  {top: 50px}
+    100% {top: 100px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    0%   {top: 0px;}
+    25%  {top: 150px;}
+    75%  {top: 50px}
+    100% {top: 100px;}
+}
+
+#imgspider2 {
+  width:100px;
+  height: 90px;
+  position: relative;
+  left:5220px;
+  top:-10px;
+  z-index:10;
+  -webkit-animation: mymove2 3s infinite; /* Safari 4.0 - 8.0 */
+   animation: mymove2 3s infinite
+ }
+ @-webkit-keyframes mymove2 {
+     0%   {top: 0px;}
+     25%  {top: 30px;}
+     75%  {top: 20px}
+     100% {top: -70px;}
+ }
+
+ /* Standard syntax */
+ @keyframes mymove2 {
+   0%   {top: 0px;}
+   25%  {top: 30px;}
+   75%  {top: 20px}
+   100% {top: -70px;}
+ }
+#imgbats1{
+  width:600px;
+  height: 600px;
+  position:absolute;
+  top:0px;
+  left:9590px;
+  z-index:5;
+  -webkit-animation: shake 2s infinite; /* Safari 4.0 - 8.0 */
+    animation: shake 2s infinite;
+}
+#imgbats2{
   width:550px;
   height: 550px;
   position:absolute;
-  top:0px;
-  left:9500px;
+  top:5px;
+  left:9700px;
   -webkit-animation: shake 1s infinite; /* Safari 4.0 - 8.0 */
     animation: shake 1s infinite;
 }
-
 @keyframes shake {
   0% { transform: translate(2px, 1px) rotate(0deg); }
   10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -152,36 +246,71 @@ h1{  background-color:white;
   90% { transform: translate(0.5px, 1px) rotate(0deg); }
   100% { transform: translate(0.5px, -1px) rotate(-1deg); }
 }
+#imgbats3{
+  width:550px;
+  height: 550px;
+  position:absolute;
+  top:0px;
+  left:9600px;
+  -webkit-animation: shake 1s infinite; /* Safari 4.0 - 8.0 */
+    animation: shake 1s infinite;
+}
+
+#imgbats4{
+  width:550px;
+  height: 550px;
+  position:absolute;
+  top:-360px;
+  left:2200px;
+  z-index: 15;
+  -webkit-animation: shake 0.5s infinite; /* Safari 4.0 - 8.0 */
+    animation: shake 0.5s infinite;
+}
+#imgbats5{
+  width:550px;
+  height: 550px;
+  position:absolute;
+  top:-50px;
+  left:900px;
+  z-index: 15;
+  -webkit-animation: shake 0.5s infinite; /* Safari 4.0 - 8.0 */
+    animation: shake 0.5s infinite;
+}
+#imgbats6{
+  width:550px;
+  height: 550px;
+  position:absolute;
+  top:270px;
+  left:230px;
+  -webkit-animation: shake 1s infinite; /* Safari 4.0 - 8.0 */
+    animation: shake 1s infinite;
+}
+#imgbats7{
+  width:550px;
+  height: 550px;
+  position:absolute;
+  top:200px;
+  left:230px;
+  -webkit-animation: shake 1s infinite; /* Safari 4.0 - 8.0 */
+    animation: shake 1s infinite;
+}
 
 #img1 {
   width:275px;
   height: 400px;
   position:absolute;
   top:100px;
-  left:1300px;
-
+  left:1260px;
   background-image: url(../img/collages/portraitofman.png);
-  background-repeat:no-repeat;
   z-index:10;
 }
 
 #wall1{
-  width:400px;
+  width:405px;
   height: 700px;
   position:absolute;
   top:0px;
   left:1200px;
-  background-color: grey;
-}
-
-
-#wall2{
-  width:400px;
-  height: 700px;
-  position:absolute;
-  top:0px;
-  left:2100px;
-  background-color: grey;
 }
 
 /*#wall1:hover{
@@ -216,21 +345,35 @@ h1{  background-color:white;
   height: 360px;
   position:absolute;
   top:100px;
-  left:2100px;
+  left:2150px;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 1.0);
   background-image: url(../img/collages/girlwithpearl.jpg);
-  background-repeat:no-repeat;
   z-index:10;
 }
-#img3 {width:230px;
+#wall2{
+  width:400px;
+  height: 700px;
+  position:absolute;
+  top:0px;
+  left:2100px;
+}
+
+#img3 {width:234px;
   height: 300px;
   position:absolute;
   top:100px;
-  left:3000px;
+  left:3030px;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 1.0);
-  background-image: url(../img/collages/scream.jpg);
+  background-image: url(../img/collages/scream.png);
   background-repeat:no-repeat;
   z-index:10;
+}
+#wall3{
+  width:370px;
+  height: 700px;
+  position:absolute;
+  top:0px;
+  left:2965px;
 }
 #img4 {width:300px;
   height: 350px;
@@ -238,9 +381,16 @@ h1{  background-color:white;
   top:100px;
   left:3900px;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 1.0);
-  background-image: url(../img/collages/adele.jpg);
+  background-image: url(../img/collages/adele.png);
   background-repeat:no-repeat;
   z-index:10;
+}
+#wall4{
+  width:400px;
+  height: 700px;
+  position:absolute;
+  top:0px;
+  left:3850px;
 }
 #img5 {width:300px;
   height: 348px;
@@ -252,15 +402,28 @@ h1{  background-color:white;
   background-repeat:no-repeat;
   z-index:10;
 }
+#wall5{
+  width:400px;
+  height: 700px;
+  position:absolute;
+  top:0px;
+  left:4750px;
+}
 #img6 {width:400px;
   height: 403px;
   position:absolute;
   top:100px;
-  left:5700px;
+  left:5677px;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 1.0);
-  background-image: url(../img/collages/lesdemoiselles.jpg);
-  background-repeat:no-repeat;
+  background-image: url(../img/collages/lesdemoiselles.png);
   z-index:10;
+}
+#wall6{
+  width:456px;
+  height: 700px;
+  position:absolute;
+  top:0px;
+  left:5650px;
 }
 #img7 {width:300px;
   height: 364px;
@@ -269,43 +432,63 @@ h1{  background-color:white;
   left:6600px;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 1.0);
   background-image: url(../img/collages/stilllife.jpg);
-  background-repeat:no-repeat;
   z-index:10;
+}
+#wall7{
+  width:400px;
+  height: 700px;
+  position:absolute;
+  top:0px;
+  left:6550px;
 }
 #img8 {width:700px;
   height: 518px;
   position:absolute;
   top:100px;
-  left:7300px;
+  left:7320px;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 1.0);
-  background-image: url(../img/collages/guernica.jpg);
-  background-repeat:no-repeat;
+  background-image: url(../img/collages/guernica.png);
   z-index:10;
 }
-#img9 {width:250px;
-  height: 300px;
-  border:1px solid black;
+#wall8{
+  width:750px;
+  height: 700px;
+  position:absolute;
+  top:0px;
+  left:7290px;
+}
+#img9 {width:300px;
+  height: 288px;
   position:absolute;
   top:100px;
-  left:8400px;
-  box-shadow: 1px 2px 4px rgba(0, 0, 0, 1.0);
-  background-image: url(../img/collages/mayawithdoll.jpg);
-  background-repeat:no-repeat;
+  left:8524px;
+  background-image: url(../img/collages/mayawithdoll.png);
   z-index:10;
+}
+#wall9{
+  width:402px;
+  height: 700px;
+  position:absolute;
+  top:0px;
+  left:8470px;
 }
 #img10 {
   width:300px;
   height: 299px;
-  border:1px solid black;
   position:absolute;
   top:100px;
-  left:9300px;
+  left:9328px;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 1.0);
   background-image: url(../img/collages/childanddoves.jpg);
-  background-repeat:no-repeat;
   z-index:10;
 }
-
+#wall10{
+  width:400px;
+  height: 700px;
+  position:absolute;
+  top:0px;
+  left:9280px;
+}
 
 #img1:hover {
   width: 300px;
@@ -346,7 +529,7 @@ h1{  background-color:white;
 #img7:hover {
   width: 300px;
   height: 488px;
-  transition: 1.5s ease;
+  transition: 2s ease;
   background-image: url(../img/masterpieces/stilllife_mast.jpg);
 }
 #img8:hover {
@@ -356,8 +539,8 @@ h1{  background-color:white;
   background-image: url(../img/masterpieces/guernica_mast.jpg);
 }
 #img9:hover {
-  width: 400px;
-  height: 316px;
+  width: 284px;
+  height: 350px;
   transition: 1.5s ease;
   background-image: url(../img/masterpieces/mayawithdoll_mast.jpg);
 }

@@ -7,12 +7,13 @@
     <title>Long scrolling page</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
   </head>
 
   <body>
   <div id="canvas">
 
-    <div id="counter">counter</div>
+    <!--<div id="counter">counter</div>-->
 
     <h1>Hidden Masterpieces</h1>
 
@@ -33,20 +34,34 @@
     <img src="img/frame.png" alt="" id="imgframe">
     <img src="img/webcenter.png" alt="" id="imgwebcenter">
     <img src="img/spider.png" alt="" id="imgspider">
+    <img src="img/spider2.png" alt="" id="imgspider2">
     <img src="img/spidersmall.png" alt="" id="imgspidersmall">
-    <img src="img/bats.png" alt="" id="imgbats">
+    <img src="img/spidersmall_long.png" alt="" id="imgspidersmall_long">
+    <img src="img/spidersmall2.png" alt="" id="imgspidersmall2">
+    <img src="img/bats1.png" alt="" id="imgbats1">
+    <img src="img/bats2.png" alt="" id="imgbats2">
+    <img src="img/bats3.png" alt="" id="imgbats3">
+    <img src="img/bats4.png" alt="" id="imgbats4">
+    <img src="img/bats5.png" alt="" id="imgbats5">
+    <img src="img/bats6.png" alt="" id="imgbats6">
+    <img src="img/bats7.png" alt="" id="imgbats7">
     <img src="img/webcorner.png" alt="" id="imgwebcorner">
     <img src="img/webright_15.png" alt="" id="imgwebright_15">
+    <img src="img/webleft_15.png" alt="" id="imgwebleft_15">
+    <img src="img/webleft.png" alt="" id="imgwebleft">
     <img src="img/webcorner_spider.png" alt="" id="imgwebcorner_spider">
-
-
 
 
   <div id="wall1"></div>
   <div id="wall2"></div>
-
-
-
+  <div id="wall3"></div>
+  <div id="wall4"></div>
+  <div id="wall5"></div>
+  <div id="wall6"></div>
+  <div id="wall7"></div>
+  <div id="wall8"></div>
+  <div id="wall9"></div>
+  <div id="wall10"></div>
 
 </div>
 
@@ -57,33 +72,86 @@ function myFunction() {
 }
 
    var canvas = document.getElementById("canvas");
-   var counter = document.getElementById("counter");
+   /*var counter = document.getElementById("counter");*/
 
 
    window.onscroll  = function(){
    var x = window.pageXOffset;
 
+   /* console.log(x);
+  <counter.style.left = 400 + x * .97 + "px";
+   counter.innerHTML = x + "px";*/
 
 
-   console.log(x);
-   counter.style.left = 400 + x * .97 + "px";
-   counter.innerHTML = x + "px";
+  if (x > 770) {
+ wall1.style.backgroundColor = "#b8b894";
+}
+ else{
+ wall1.style.backgroundColor = "#262626";
+  }
 
-
-   if (x > 700) {
-   wall1.style.backgroundColor = "green";
+  if (x > 1700) {
+  wall2.style.backgroundColor = "#b8b894";
  }
  else{
-   wall1.style.backgroundColor = "grey";
-   }
+  wall2.style.backgroundColor = "#262626";
+ }
 
-
- if (x > 1500) {
- wall2.style.backgroundColor = "green";
+ if (x > 2500) {
+ wall3.style.backgroundColor = "#b8b894";
 }
 else{
- wall2.style.backgroundColor = "grey";
- }
+ wall3.style.backgroundColor = "#262626";
+}
+
+if (x > 3390) {
+wall4.style.backgroundColor = "#b8b894";
+}
+else{
+wall4.style.backgroundColor = "#262626";
+}
+
+if (x > 4268) {
+wall5.style.backgroundColor = "#b8b894";
+}
+else{
+wall5.style.backgroundColor = "#262626";
+}
+
+if (x > 5205) {
+wall6.style.backgroundColor = "#b8b894";
+}
+else{
+wall6.style.backgroundColor = "#262626";
+}
+
+if (x > 6125) {
+wall7.style.backgroundColor = "#b8b894";
+}
+else{
+wall7.style.backgroundColor = "#262626";
+}
+
+if (x > 6930) {
+wall8.style.backgroundColor = "#b8b894";
+}
+else{
+wall8.style.backgroundColor = "#262626";
+}
+
+if (x > 8118) {
+wall9.style.backgroundColor = "#b8b894";
+}
+else{
+wall9.style.backgroundColor = "#262626";
+}
+if (x > 8860) {
+wall10.style.backgroundColor = "#b8b894";
+}
+else{
+wall10.style.backgroundColor = "#262626";
+}
+
 }
 
 
