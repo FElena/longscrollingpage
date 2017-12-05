@@ -51,7 +51,6 @@
     <img src="img/webleft.png" alt="spider web" id="imgwebleft">
     <img src="img/webcorner_spider.png" alt="spider web" id="imgwebcorner_spider">
 
-
   <div id="wall1"></div>
   <div id="wall2"></div>
   <div id="wall3"></div>
@@ -63,12 +62,18 @@
   <div id="wall9"></div>
   <div id="wall10"></div>
 
+<p id="info" onclick="myFunction()">About the project</p>
+
 </div>
 
 <script>
 
    var canvas = document.getElementById("canvas");
    /*var counter = document.getElementById("counter");*/
+
+   function myFunction() {
+       document.getElementById("info").innerHTML = "YOU CLICKED ME!";
+   }
 
    window.onscroll  = function(){
    var x = window.pageXOffset;

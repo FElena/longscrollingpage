@@ -1,6 +1,7 @@
-body {background-color: #262626;}
+body {background-color: black;}
 
 #canvas{
+  background-color: #262626;
   border:2px solid black;
   width:10309px;
   height:700px;
@@ -30,6 +31,17 @@ h1{  background-color:white;
      text-align: center;
      font-family: 'Bellefair', serif;
 }
+
+#info {
+  position:absolute;
+ font-size: 20px;
+ background-color: white;
+  width:350px;
+  height:250px;
+  top:150px;
+  left:700px;
+}
+
 
 #imgframe {
   position:absolute;
