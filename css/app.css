@@ -32,17 +32,6 @@ h1{  background-color:white;
      font-family: 'Bellefair', serif;
 }
 
-#info {
-  position:absolute;
- font-size: 20px;
- background-color: white;
-  width:350px;
-  height:250px;
-  top:150px;
-  left:700px;
-}
-
-
 #imgframe {
   position:absolute;
   width:350px;
@@ -315,6 +304,19 @@ h1{  background-color:white;
   left:1260px;
   background-image: url(../img/collages/portraitofman.png);
   z-index:10;
+}
+#info1 {
+  position:absolute;
+  font-size: 18px;
+  font-family: 'Bellefair', serif;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  background-color:#1a1a1a;
+  width:150px;
+  height:128px;
+  top:290px;
+  left:1640px;
 }
 
 #wall1{
