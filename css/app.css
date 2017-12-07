@@ -220,7 +220,7 @@ h1{  background-color:white;
   height: 600px;
   position:absolute;
   top:0px;
-  left:9690px;
+  left:9790px;
   z-index:5;
   -webkit-animation: shake 2s infinite; /* Safari 4.0 - 8.0 */
     animation: shake 2s infinite;
@@ -230,7 +230,7 @@ h1{  background-color:white;
   height: 550px;
   position:absolute;
   top:5px;
-  left:9800px;
+  left:9900px;
   -webkit-animation: shake 1s infinite; /* Safari 4.0 - 8.0 */
     animation: shake 1s infinite;
 }
@@ -252,7 +252,7 @@ h1{  background-color:white;
   height: 550px;
   position:absolute;
   top:0px;
-  left:9700px;
+  left:9800px;
   -webkit-animation: shake 1s infinite; /* Safari 4.0 - 8.0 */
     animation: shake 1s infinite;
 }
@@ -592,6 +592,7 @@ h1{  background-color:white;
 }
 #info10{
   left:9708px;
+  z-index: 15px;
 }
 
 
