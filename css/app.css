@@ -3,7 +3,7 @@ body {background-color: black;}
 #canvas{
   background-color: #262626;
   border:2px solid black;
-  width:10309px;
+  width:11000px;
   height:700px;
   margin:0 auto;
   position:relative;
@@ -220,7 +220,7 @@ h1{  background-color:white;
   height: 600px;
   position:absolute;
   top:0px;
-  left:9590px;
+  left:9690px;
   z-index:5;
   -webkit-animation: shake 2s infinite; /* Safari 4.0 - 8.0 */
     animation: shake 2s infinite;
@@ -230,7 +230,7 @@ h1{  background-color:white;
   height: 550px;
   position:absolute;
   top:5px;
-  left:9700px;
+  left:9800px;
   -webkit-animation: shake 1s infinite; /* Safari 4.0 - 8.0 */
     animation: shake 1s infinite;
 }
@@ -252,7 +252,7 @@ h1{  background-color:white;
   height: 550px;
   position:absolute;
   top:0px;
-  left:9600px;
+  left:9700px;
   -webkit-animation: shake 1s infinite; /* Safari 4.0 - 8.0 */
     animation: shake 1s infinite;
 }
@@ -305,20 +305,6 @@ h1{  background-color:white;
   background-image: url(../img/collages/portraitofman.png);
   z-index:10;
 }
-#info1 {
-  position:absolute;
-  font-size: 18px;
-  font-family: 'Bellefair', serif;
-  text-align: center;
-  color: white;
-  padding: 10px;
-  background-color:#1a1a1a;
-  width:150px;
-  height:128px;
-  top:290px;
-  left:1640px;
-}
-
 #wall1{
   width:405px;
   height: 700px;
@@ -563,6 +549,49 @@ h1{  background-color:white;
   height: 372px;
   transition: 1.5s ease;
   background-image: url(../img/masterpieces/childwithdoves_mast.jpg);
+}
+
+#info1, #info2,#info3, #info4, #info5, #info6, #info7, #info8, #info9, #info10 {
+  position:absolute;
+  font-size: 18px;
+  font-family: 'Bellefair', serif;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  background-color:#1a1a1a;
+  width:150px;
+  height:128px;
+  top:290px;
+}
+#info1{
+  left:1640px;
+}
+#info2{
+  left:2530px;
+}
+#info3{
+  left:3370px;
+}
+#info4{
+  left:4280px;
+}
+#info5{
+  left:5180px;
+}
+#info6{
+  left:6140px;
+}
+#info7{
+  left:6980px;
+}
+#info8{
+  left:8075px;
+}
+#info9{
+  left:8904px;
+}
+#info10{
+  left:9708px;
 }
 
 
