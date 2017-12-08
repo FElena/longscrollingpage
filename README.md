@@ -1,5 +1,5 @@
 # longscrollingpage
-About the project
+
 I called the project “Hidden Masteries”, because I used my own artworks, which are hidden for everyone in my closet. A couple years ago, masterpieces of fine artist inspired me to make the collages of famous artworks using cuttings from magazines. In making my collages I used the masters’ ideas and styles – the lighting, composition, color and more importantly how they tell the story. My ideas were applied to reproduce their stories in my artworks. My goal was to make my collages recognizable and keep the masters’ concepts. Understanding the artists’ style and concept of the art pieces helped me reproduce the idea of every art pieces. I reproduced my favorite masterpieces from different time periods from 15th to 20th century.
 
  In my project, viewers are asking if they can recognize the masterpieces in my collages. My goal was to create the illusion of the gallery when the viewers walk around and look at the art pieces. I added some interaction with the website, adding the button “Guess the artist /art piece and check yourself”. So, first the viewers will see my collages. Then they can check themselves, if they can recognize the artist and the work of art.  And finally, they can test themselves and hover to the collages and see the original works of art.
